@@ -12,6 +12,6 @@ RUN npm install mysql2
 COPY . /app/
 
 
-EXPOSE 3330
+EXPOSE 3300
 
 CMD ["node", "index.js"]
